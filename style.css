@@ -3,7 +3,7 @@
 
 /* target all elements */
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Creepster|Economica|Monoton');
+@import url('https://fonts.googleapis.com/css?family=Creepster|Economica|Monofett|Monoton');
 body{
     background-color: gray;
     box-sizing: border-box;
@@ -13,20 +13,23 @@ body{
   height: 500px;
   background-repeat: no-repeat;
   font-family: 'Economica', sans-serif;
-  color: rgb(59, 56, 56)
+  color: rgb(59, 56, 56);
+  font-size: 20px;
 }
 
 .diceWar{
     
-    font-family: 'Monoton', cursive;
+    font-family: 'Creepster', cursive;
     text-align: center;
-    font-size: 31px;
-    color: rgb(222, 228, 233);
+    font-size: 60px;
+    margin: 10px;
+    color: rgb(9, 70, 9);
+    text-shadow: 2px 2px white
 }
 .wrapper {
     margin-left: 20%;
     margin-top: 5%;
-    height: 600px;
+    height: 650px;
     width: 700px;
     background-color: rgb(15, 92, 15);
 
@@ -90,6 +93,12 @@ border-radius: 15px;}
     font-size: 20px;
 
 
+}
+
+button:hover{
+
+    background-color: gray;
+    cursor: crosshair
 }
 
 
