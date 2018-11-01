@@ -1,4 +1,102 @@
 /* this is reset.css, basically resets all the defaults styles.*/
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+/* a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline} */
 
 /* target all elements */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Creepster|Economica|Monoton');
+body{
+    background-color: gray;
+    box-sizing: border-box;
+    text-align: center;
+    background-image: url("img/casion.jpg");
+  background-size: cover;
+  height: 500px;
+  background-repeat: no-repeat;
+  font-family: 'Economica', sans-serif;
+  color: rgb(59, 56, 56)
+}
+
+.diceWar{
+    
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 31px;
+    color: rgb(222, 228, 233);
+}
+.wrapper {
+    margin-left: 20%;
+    margin-top: 5%;
+    height: 600px;
+    width: 700px;
+    background-color: rgb(15, 92, 15);
+
+    border: 2px solid white;
+    border-radius: 10px; 
+    box-shadow: 15px 10px rgb(21, 43, 21);
+
+}
+
+.divider{ 
+
+    display: flex; 
+    align-content: stretch;
+        flex-wrap: wrap;
+}
+
+.area{
+    width: 50%;
+    
+
+}
+
+#player1Area{
+    background-color: rgb(207, 201, 192);
+}
+
+#player2Area {
+    background-color: rgb(180, 176, 169);
+}
+
+#reset{
+    font-size: 25px;
+    width: 100%;
+
+ 
+}
+
+img{margin-top: 10px;
+border-radius: 15px;}
+
+#status{
+    height: 70px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    color: azure;
+
+}
+
+
+
+.menu{
+    }
+/* align-content: center;} */
+.ext{
+    display: flex; 
+    align-content: center;
+
+} button{
+    height:35px;
+    width: 50%;
+    font-size: 20px;
+
+
+}
+
+
+.active{
+    width: 48%;
+  border: 5px solid rgb(243, 34, 138);
+
+}
+
+
