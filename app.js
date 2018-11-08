@@ -24,8 +24,6 @@ hold.style.display="none";
 
 gameStatus.innerHTML = "Let's play a game";
 
-
-
 function resetGame(){
     player1Area.classList.add("active");
     player2Area.classList.remove("active");
@@ -44,8 +42,6 @@ currentScore1.innerHTML = player1Score;
 player2Score=0;
 currentScore2.innerHTML = player2Score;
 }
-
-
 
 
 roll.addEventListener('click',()=>{
